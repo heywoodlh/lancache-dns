@@ -8,7 +8,7 @@ apk --no-cache add git
 
 RUN \
 echo ">> Clone dnstool repo..." && \
-git clone https://github.com/lancachenet/dnstool.git .
+git clone https://github.com/Jamesits/dnstool . # https://github.com/lancachenet/dnstool/pull/5
 
 RUN \
 echo ">> Starting go build..." && \
